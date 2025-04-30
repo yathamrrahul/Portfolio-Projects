@@ -6,3 +6,11 @@ scikit-learn
 xgboost
 lightgbm
 statsmodels
+xgboost[cuda] 
+lightgbm 
+papermill 
+openpyxl 
+tqdm  
+seaborn  
+plotly   
+nbconvert       
