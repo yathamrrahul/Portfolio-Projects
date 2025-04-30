@@ -38,18 +38,43 @@ Source: https://www.kaggle.com/datasets/milanzdravkovic/pharma-sales-data
 ## Directory Structure
 
 ```bash
-Pharma_Sales_Analysis/
+PHARMA_SALES_ANALYSIS/
 │
-├── Pharma Sales Analysis.pbix          # Power BI dashboard
-├── PharmaSalesAnalysis.ipynb           # Python analysis notebook
-├── prophet_forecast_2020_2024.csv      # Forecasted data using Prophet
-├── requirements.txt                    # Python dependencies
-├── Pharma_Sales_Dataset/               # Raw CSVs (hourly, daily, etc.)
-│   ├── saleshourly.csv
+├── .vscode/                             # VS Code settings
+├── Archives/
+│   ├── Archived Forecasts/
+│   │   ├── Forecasting Data_archive_2025-04-29.xlsx
+│   ├── Archived Metrics/
+│   │   └── best_model_summary_metrics_archive_2025-04-29.csv
+│   └── Archived Sales Data/
+│       ├── salesdaily_archive_2025-04-29.csv
+│       ├── saleshourly_archive_2025-04-29.csv
+│       ├── salesmonthly_archive_2025-04-29.csv
+│       └── salesweekly_archive_2025-04-29.csv
+│
+├── Forecasts/
+│   ├── best_model_summary_metrics.csv
+│   ├── Forecasting Data.xlsx
+│   ├── lstm_forecast_daily_36_months.csv
+│   ├── prophet_forecast.csv
+│   ├── random_forest_forecast_daily_36_months.csv
+│   ├── seasonality_strength.csv
+│   └── xgboost_forecast_daily_36_months.csv
+│
+├── Pharma_Sales_Dataset/
+│   ├── Sales_Combined.xlsx
 │   ├── salesdaily.csv
-│   ├── salesweekly.csv
-│   └── salesmonthly.csv
-└── README.md
+│   ├── saleshourly.csv
+│   ├── salesmonthly.csv
+│   └── salesweekly.csv
+│
+├── Drug Descriptions.xlsx               # Supplemental drug metadata
+├── Pharma Sales Analysis.pbix          # Power BI dashboard
+├── Pharma_Sales_Automater.ipynb        # Automated forecasting pipeline
+├── PharmaSalesAnalysis.ipynb           # Primary analysis notebook
+├── README.md
+└── requirements.txt                    # Python dependencies
+
 ```
 
 ## Project Highlights
