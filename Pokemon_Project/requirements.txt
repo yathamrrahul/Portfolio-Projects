@@ -1,0 +1,7 @@
+gym-retro
+numpy
+gymnasium
+torch
+stable-baselines3
+matplotlib
+pillow
